@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let tableView: UITableView = UITableView()
-    let samples: [BaseVC] = [MapVC(), LinkPreviewVCViewController()]
+    let samples: [BaseVC] = [MapVC(), LinkPreviewVCViewController(), WebViewVC()]
 
     override func viewDidLoad() {
         super.viewDidLoad()

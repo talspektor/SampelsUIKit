@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		366AFAFF25BFFA1F000CBA0A /* WebViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366AFAFE25BFFA1F000CBA0A /* WebViewVC.swift */; };
 		3684AFC125BD4F960016A713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3684AFC025BD4F960016A713 /* AppDelegate.swift */; };
 		3684AFC325BD4F960016A713 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3684AFC225BD4F960016A713 /* SceneDelegate.swift */; };
 		3684AFC525BD4F960016A713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3684AFC425BD4F960016A713 /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		366AFAFE25BFFA1F000CBA0A /* WebViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewVC.swift; sourceTree = "<group>"; };
 		3684AFBD25BD4F960016A713 /* SmpelsUIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmpelsUIKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3684AFC025BD4F960016A713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3684AFC225BD4F960016A713 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		366AFAFD25BFFA00000CBA0A /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				366AFAFE25BFFA1F000CBA0A /* WebViewVC.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
 		3684AFB425BD4F960016A713 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +97,7 @@
 		3684AFBF25BD4F960016A713 /* SmpelsUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				366AFAFD25BFFA00000CBA0A /* WebView */,
 				3684AFE925BD51980016A713 /* LinkPreviews */,
 				3684AFE225BD4FAF0016A713 /* MapDemo */,
 				3684AFC025BD4F960016A713 /* AppDelegate.swift */,
@@ -232,6 +243,7 @@
 				3684AFE525BD4FAF0016A713 /* MapVC.swift in Sources */,
 				3684AFE625BD4FAF0016A713 /* LocationManager.swift in Sources */,
 				3684AFC125BD4F960016A713 /* AppDelegate.swift in Sources */,
+				366AFAFF25BFFA1F000CBA0A /* WebViewVC.swift in Sources */,
 				3684AFEC25BD51E30016A713 /* LinkPreviewVCViewController.swift in Sources */,
 				3684AFEF25BD54410016A713 /* BaseVC.swift in Sources */,
 				3684AFC325BD4F960016A713 /* SceneDelegate.swift in Sources */,
